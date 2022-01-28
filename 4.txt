@@ -1,0 +1,13 @@
+Coche: NUM_COCHE, Marca, Modelo, Num_Matricula, Fecha_Compra, Fecha_Ult_Rev, COD_PARQUE
+
+Parque Bomberos: COD_PARQUE, Nombre, Direccion, Telefono, Categoria
+Recibe (COD_PARQUE, CODPETSERV, fecha. hora)
+
+Bombero: COD_BOMBERO, Nombrre, Apellidos, Fecha_Nac, DNI, Direccion, Telefono, COD_PARQUE
+
+Trabaja en (COD_BOMBERO, FECHA_INICO, FECHA_FIN)
+Turno: COD_TURNO, Descripcion, FECHA_INICIO, FECHA_FIN, COD_BOMBERO
+Periodo: Fecha_Inicio, Fecha_Fin
+Peticion Servicio: CODPETSERV, Tipo_Serv, GradoUrgencia
+
+Equipo: COD_EQ, Nombre, COD_BOMBERO 

@@ -1,0 +1,7 @@
+Cliente("cod_cliente")
+
+pedido("cod_pedido","fecha_pedido","cod_cliente","cod_producto",num_unidades)
+
+producto("cod_producto",cantidad,unidades,fecha_encargo)
+
+proveedor("cod_proveedor")

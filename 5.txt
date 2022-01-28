@@ -1,0 +1,13 @@
+socios("n_socio",nombre,apellidos,telefono,fecha_cad)
+
+prestamo("n_prestamo",fecha_prestamo,"n_socio")
+
+prestamo_s(tipo,"n_prestamo")
+
+prestamo_e(fecha_devol,tipo,"n_prestamo")
+
+sancion("n_socio",n_dias)
+
+fondo("titulo","autor",cantidad)
+
+libro("signatura",disponible,titulo,autor)

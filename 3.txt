@@ -1,0 +1,5 @@
+Sucursal("N_sucursal", Ciudad, Activo)
+Cliente("DNI", Nombre, Apellidos, Direccion, Ciudad)
+Cuenta("N_cuenta", Saldo, "N_transacción")
+Abrir("DNI", "N_cuenta", "N_sucursal")
+Transacción("N_transacción", Fecha, TipoOperación, Cantidad)

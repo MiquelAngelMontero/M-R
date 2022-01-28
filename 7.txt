@@ -1,0 +1,5 @@
+arrendatario("cif",nombre fiscal, nombre firmante,cargo firmante,direccion,codigo_postal,localidad,provincia,fax,actividad,telefono_fijo,telefono_movil)
+
+nave("codigo_nave",poligono,calle,numero,localidad,codigo_postal,provincia,telefono,caracteristicas,foto,datos_escritura,alquilada,gastos_comunidad,"cif",numero_cuenta,dias_pago,fecha_alquiler,fecha_fin_alquiler,importe_alquiler)
+
+recibo("numero_recibo",importe_total,importe_iva,pagado,fecha,"cif","codigo_nave")
