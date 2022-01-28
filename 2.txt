@@ -1,0 +1,6 @@
+Elemento("Nombre_elem", Peso_atómico, Símbolo, NºAtómico)
+Compuesto("Nombre_Comp")
+Compuesto_por("Nombre_elem", "Nombre_Comp", Proporción)
+Gaseoso("Nombre_Comp", Coef_expan, Temp_lic, Estado)
+Líquido("Nombre_Comp", Densidad, Temp_evap, Estado)
+Sólido("Nombre_Comp", Color, Olor, Dureza, Estado)

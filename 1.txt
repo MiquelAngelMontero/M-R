@@ -1,0 +1,2 @@
+Atleta("NºDorsal", Nombre)
+Da_relevo_a("NºDorsal", Nombre, "NºDorsal Rol 1")
